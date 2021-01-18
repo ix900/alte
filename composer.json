@@ -12,6 +12,12 @@
         }
     ],
     "minimun-stability":"dev",
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ix900/alte.git"
+        }
+    ],
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*"
