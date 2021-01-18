@@ -1,6 +1,7 @@
 {
     "name": "ix900/alte",
     "description": "Widgets for AdminLTE theme",
+    "homepage":"https://github.com/ix900/alte",
     "type": "yii2-extension",
     "keywords": ["yii2","widget","adminlte"],
     "license": "MIT",
