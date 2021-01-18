@@ -6,11 +6,11 @@ It make it easy to build a bootstrap admin panel.
 Install
 ===
 
-`composer require "cszchen/alte": ">=2.0.0"`
+`composer require "ix900/alte": ">=2.0.0"`
 
 How to Use
 ===
-layout sample file: `@vendor/cszchen/alte/views/main-layout.php`
+layout sample file: `@vendor/ix900/alte/views/main-layout.php`
  
 example:
 ---
@@ -18,7 +18,7 @@ example:
 ```php
 class SiteController extends \yii\web\Controller
  {
-    public $layout = '@vendor/cszchen/alte/veiws/main-layout.php';
+    public $layout = '@vendor/ix900/alte/veiws/main-layout.php';
     
     public function actionIndex()
     {
@@ -29,7 +29,7 @@ class SiteController extends \yii\web\Controller
   
 **views/site/index.php**
 ```php
-use cszchen\alte\widgets\Box;
+use ix900\alte\widgets\Box;
 
 $this->title = "Title here!";
 Box::begin([
@@ -50,7 +50,7 @@ NavBar
 ---
 ```php
 NavBar::begin([
-    'brandLabel' => 'cszchen/alte',
+    'brandLabel' => 'ix900/alte',
     'brandLabelSm' => 'Alte',
     'items' => [
         [
