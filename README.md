@@ -39,7 +39,7 @@ Box::begin([
   'tools' => ['refresh', 'collapse', 'remove'],
   'collapsed' => false
 ]);
-echo "cszchen/alte";
+echo "ix900/alte";
 Box::end();
 ```
 
@@ -99,6 +99,6 @@ Box::begin([
     'tools' => ['refresh', 'collapse', 'remove'],
     'collapsed' => false
 ]);
-echo "cszchen/alte";
+echo "ix900/alte";
 Box::end();
 ```
