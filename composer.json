@@ -11,7 +11,7 @@
             "email": "me@csz.link"
         }
     ],
-    "minimun-stability":"dev",
+    "minimum-stability":"dev",
      "repositories": [
         {
             "type": "vcs",
